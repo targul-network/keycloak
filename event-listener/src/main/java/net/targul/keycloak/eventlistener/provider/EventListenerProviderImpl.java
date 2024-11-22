@@ -22,6 +22,7 @@ public class EventListenerProviderImpl implements EventListenerProvider {
 
     @Override
     public void onEvent(Event event) {
+        log.info("Received event: " + event);
         // todo
     }
 
